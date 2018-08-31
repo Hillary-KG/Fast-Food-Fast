@@ -1,1 +1,5 @@
 *.pyc
+fast_food/fast_food/*.pyc
+fast_food/frontend/*.pyc
+fast_food/__pycache__/__init__.cpython-36.pyc
+fast_food/__pycache__/settings.cpython-36.pyc
