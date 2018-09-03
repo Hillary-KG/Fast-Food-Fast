@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/x-icon" href="{% static 'images/ff.png' %}" style="width: 20px;height: 20px;border-radius: 50%;background-color: #37d33c;">
+	<title>Fast Food Fast</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<div class="container">
+	<body>
+		<nav>
+			<a href="#"><img src="{% static 'images/ff.png' %}" style="width: 30px;height: 30px;border-radius: 50%;background-color: #37d33c;"></a>
+			<a href="" style="padding-top: 30px;">Home</a>
+			<a href=""style="padding-top: 30px;">Our Menu</a>
+			<a href=""style="padding-top: 30px;">Contact Us</a>
+			<a href=""style="padding-top: 30px;">About Us</a>
+			<a href=""style="padding-top: 30px;">Blog</a>
+			<input type="text" name="Search" placeholder="Search ...">
+		</nav>
+		<div class="wrapper" id="wrapper">
+			<div class="menu">
+				<div class="menu_categories" id="menu_categories">
+					<ul>
+						<li>Chicken & Fish</li>
+						<li>Fries</li>
+						<li>Sides</li>
+						<li>Sandwitches</li>
+						<li>Drinks</li>
+					</ul>
+				</div>
+				<div class="menu_items" id="menu_items">
+					<ul class="chicken_fish" id="chicken_fish">
+					</ul>
+					<ul class="fries" id="fries">
+						<ul>
+							<h6>Plain Chips</h6>
+							<li><a href=""><img src=""><span>Large</span></a></li>
+							<li><a href=""><img src=""><span>Small</span></a></li>
+						</ul>
+						<ul class="bhajia" id="bhajia">
+							<h6>Bhajia</h6>
+							<li><a href=""><img src=""><span>Large</span></a></li>
+							<li><a href=""><img src=""><span>Small</span></a></li>
+						</ul>
+					</ul>
+					<ul class="sides" id="sides">
+						<li><a href=""><img src=""><span>Cole Slaw</span></a></li>
+						<li><a href=""><img src=""><span>Mac & Cheese</span></a></li>
+					</ul>
+					<ul class="sandwitches" id="sandwitches">
+						<li><a href=""><img src=""><span>Chicken Burger(spiced)</span></a></li>
+						<li><a href=""><img src=""><span>Cheese Beef Burger</span></a></li>
+						<li><a href=""><img src=""><span>Beef Burger</span></a></li>
+						<li><a href=""><img src=""><span>Double Burger</span></a></li>
+						<li><a href=""><img src=""><span>Veggie</span></a></li>			
+					</ul>
+					<ul class="drinks" id="drinks">
+						
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<footer class="footer">
+			<ul>
+				<p>We're social! Connect with us:</p>
+				<a href="https://facebook.com">Facebook </a>|
+				<a href="https://twitter.com">Twitter </a>|
+				<a href="https://instagram.com">Instagram </a>|
+				<a href="https://plus.google.com/discover">Google +</a>
+			</ul>
+			<p>Copyright <span>&copy;</span> 2018 Fast Food Fast. All Rights Reserved</p>
+		</footer>	
+	</body>
+</div>
+</html>
