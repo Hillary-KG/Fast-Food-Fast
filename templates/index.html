@@ -19,47 +19,49 @@
 		</nav>
 		<div class="wrapper" id="wrapper">
 			<div class="menu">
-				<div class="menu_categories" id="menu_categories">
-					<ul>
-						<li>Chicken & Fish</li>
-						<li>Fries</li>
-						<li>Sides</li>
-						<li>Sandwitches</li>
-						<li>Drinks</li>
+				<div class="chicken_fish_card" id="chicken_fish_card">
+					<h6>Chicken & Fish</h6>
+					
+				</div>
+				<div class="fries_card" id="fries_card">
+					<p>Fries</p>
+					<ul style="float: left;">
+						<p>Plain Chips</p>
+						<li><img src=""><span>Large</span></li>
+						<li><img src=""><span>Small</span></li>
+					</ul>
+					<ul style="float: right;">
+						<h6>Bhajia</h6>
+						<li><img src=""><span>Large</span></li>
+						<li><img src=""><span>Small</span></li>
 					</ul>
 				</div>
-				<div class="menu_items" id="menu_items">
-					<ul class="chicken_fish" id="chicken_fish">
-					</ul>
-					<ul class="fries" id="fries">
-						<ul>
-							<h6>Plain Chips</h6>
-							<li><a href=""><img src=""><span>Large</span></a></li>
-							<li><a href=""><img src=""><span>Small</span></a></li>
-						</ul>
-						<ul class="bhajia" id="bhajia">
-							<h6>Bhajia</h6>
-							<li><a href=""><img src=""><span>Large</span></a></li>
-							<li><a href=""><img src=""><span>Small</span></a></li>
-						</ul>
-					</ul>
+				<div class="sides_card" class="sides_card">
+					<p>Sides</p>
+					<li></li>
+					<li><img src=""><span>Cole Slaw</span></li>
+					<li><img src=""><span>Mac & Cheese</span></li>
+
+				</div>
+				<div class="sandwitches_card" id="sandwitches_card">
+					<p>Sandwitches</p>
 					<ul class="sides" id="sides">
-						<li><a href=""><img src=""><span>Cole Slaw</span></a></li>
-						<li><a href=""><img src=""><span>Mac & Cheese</span></a></li>
+						<li><img src=""><span>Cole Slaw</span></li>
+						<li><img src=""><span>Mac & Cheese</span></li>
 					</ul>
-					<ul class="sandwitches" id="sandwitches">
-						<li><a href=""><img src=""><span>Chicken Burger(spiced)</span></a></li>
-						<li><a href=""><img src=""><span>Cheese Beef Burger</span></a></li>
-						<li><a href=""><img src=""><span>Beef Burger</span></a></li>
-						<li><a href=""><img src=""><span>Double Burger</span></a></li>
-						<li><a href=""><img src=""><span>Veggie</span></a></li>			
+				</div>
+				<div class="drinks_card" id="drinks_card">
+					<h6>Drinks</h6>
+					<ul class="cold_drinks">
+						<li><img src=""> Soda</li>
+						<li><img src=""> Juice</li>
 					</ul>
-					<ul class="drinks" id="drinks">
-						
+					<ul class="hot_drinks">
+						<li><img src="">Tea</li>
+						<li><img src="">Coffee</li>
 					</ul>
 				</div>
 			</div>
-
 		</div>
 		<footer class="footer">
 			<ul>
@@ -74,3 +76,51 @@
 	</body>
 </div>
 </html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	<input type="text" name="Search" placeholder="Search ...">
+	<a href="" style="padding-top: 30px;">Home</a>
+	<a href=""style="padding-top: 30px;">Our Menu</a>
+	<a href=""style="padding-top: 30px;">Contact Us</a>
+	<a href=""style="padding-top: 30px;">About Us</a>
+	<a href=""style="padding-top: 30px;">Blog</a>
+	
+  <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a> -->
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Menu</button><h2>Fast Food Fast</h2>
+  <!-- <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p> -->
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+     
+</body>
+</html> 
